@@ -1,0 +1,9 @@
+Package: ml.caetan0.squaredots
+Name: SquareDots
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: makes springboard dots square 
+Maintainer: Caetano Melone <caetanomelone@gmail.com>
+Author: Caetano Melone <caetanomelone@gmail.com>
+Section: Tweaks
