@@ -10,4 +10,4 @@ SquareDots_FILES = squaredots.x #you can change this to anything you would like.
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
-	install.exec "killall -9 backboardd" #you can kill anything you would like ex. Vine, Snapchat. I used backboardd just because its brings down springboardd and all of his little buddies
+	install.exec "killall -9 backboardd" #you can kill anything you would like ex. Vine, Snapchat. I used backboardd just because its brings down springboard and all of his little buddies
