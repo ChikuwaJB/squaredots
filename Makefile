@@ -4,7 +4,8 @@ ARCHS = armv7 arm64 #this tells clang (our compiler) to make sure the tweak will
 include theos/makefiles/common.mk
 
 TWEAK_NAME = SquareDots
-SquareDots_FILES = squaredots.x
+SquareDots_FILES = squaredots.x #you can change this to anything you would like. this used to be called Tweak.xm but I changed it for sake of organization. you can also add "$(wildcard *.xm)" to tell clang to compile any file ending in .xm within the current directory 
+#x,m,mm, & xm file extentions will all work when using theos. they are all objective-c extentions
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
